@@ -5,8 +5,7 @@ function Car(make, model, year) {
   this.displayCar = displaycar;
 }
 function displaycar() {
-  var result =  " Car Make is: " + this.make + "\n " +  " Model is: " + " " + this.model + "\n" + " Made in Year:  " + this.year;
-  alert(result);
+   alert(" Car Make is: " + this.make + "\n " +  " Model is: " + " " + this.model + "\n" + " Made in Year:  " + this.year);
 }
 var porsche = new Car("Porsche", "Cayman", 2015 , true);
 var land = new Car("Land","Rover",2016);
